@@ -1,5 +1,5 @@
 # TEKNOFEST2022
-TEKNOFEST 2022 2. gorev python kodlari
+TEKNOFEST 2022 Döner Kanat iha 2. gorev python kodlari
 
 KLASÖRLER HAKKINDA
 1.0.1 isimli klasör testlerin bulunduğu klasördür. 
