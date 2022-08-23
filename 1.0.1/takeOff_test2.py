@@ -26,7 +26,11 @@ def takeOff(alt):
     while iha.location.global_relative_frame.alt < alt * 0.9:
         print("İha hedefe yükseliyor.")
         time.sleep(1)
-        
+
 iha = connectMyCopter()
 arm()
 takeOff(5)
+time.sleep(5)
+iha.mode = VehicleMode("LAND")
+time.sleep(5)
+iha.close()
