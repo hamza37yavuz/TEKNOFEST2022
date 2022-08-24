@@ -3,6 +3,11 @@ TEKNOFEST 2022 Döner Kanat iha 2. gorev python kodlari
 
 KLASÖRLER HAKKINDA
 1.0.1 isimli klasör testlerin bulunduğu klasördür. 
+
+1. Test arm_test1.py
+2. Test takeOff_test2.py
+3. Test goAndLand_test3.py (bu testte goEarth() yerine goIha yazarak ihanın yaptigi hareket gozlemlenmelidir.) 
+
 Bu testlerin hepsi iha üzerinde denenmeli sonra kodlar ros tabanli simulasyon programi uzerinde calistirilmalidir.
 Alinan hatalara gore kod uzerinde duzeltmeler yapilmalidir
 
