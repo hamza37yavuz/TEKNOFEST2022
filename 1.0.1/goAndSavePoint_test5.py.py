@@ -130,3 +130,4 @@ for i in range(30):
 if c==0:
     time.sleep(10)
     m.run(lat,lon,lat1,lon1)
+    iha.close()
