@@ -12,7 +12,7 @@ KLASÖRLER HAKKINDA
     (bu testte goEarth() yerine goIha yazarak ihanın yaptigi hareket gozlemlenmelidir.)
 5. Test goAndSavePoint_test5.py   
     (bu testte ihanin konum alabilmesi ve hassasiyeti test edilmistir. Test ortaminda ihanin 30 m ilerisine bir isaret konulmali alcaldigi noktanin isaretli noktaya    uzakligi olculmelidir.)
-6. Test servo_test6.py
+6. Test servo_test6.py (Sonsuz dönen servo motor 17. pine baglanmistir. Servo sonsuz donen oldugu icin command kulanarak yapilmamistir.)
 
 Bu testlerin hepsi numaralandirma sirasina iha üzerinde denenmeli sonra kodlar ros tabanli simulasyon programi uzerinde calistirilmalidir.
 Alinan hatalara gore kod uzerinde duzeltmeler yapilmalidir
