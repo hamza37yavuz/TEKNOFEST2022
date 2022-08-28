@@ -113,7 +113,7 @@ class Move:
         iha = connect(connection_string,baud=baud_rate,wait_ready=True)
         return iha
 #MAIN   
-iha = connectMyCopter()
+iha = Move.connectMyCopter()
 
 m = Move()
 m.takeOff(6)
