@@ -87,16 +87,19 @@ class Move:
             if next_waypoint is 2:
                 print("Gorev bitti.")
                 break
+              
+    @staticmethod
+    def connectMyCopter():
+        parser = argparse.ArgumentParser(description='commands')
+        parser.add_argument('--connect')
+        args = parser.parse_args()
+        connection_string =args.connect
+        baud_rate = 57600
+        iha = connect(connection_string,baud=baud_rate,wait_ready=True)
+        return iha
 
-def connectMyCopter():
-    parser = argparse.ArgumentParser(description='commands')
-    parser.add_argument('--connect')
-    args = parser.parse_args()
-    connection_string =args.connect
-    baud_rate = 57600
-    iha = connect(connection_string,baud=baud_rate,wait_ready=True)
-    return iha
-iha = connectMyCopter()
+#MAIN
+iha = Move.connectMyCopter()
 
 m = Move()
 m.takeOff(1)
