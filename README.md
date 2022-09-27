@@ -1,7 +1,7 @@
 # TEKNOFEST2022
-TEKNOFEST 2022 Doer Kanat iha 2. gorev python kodlari
+#### TEKNOFEST 2022 Doner Kanat iha 2. gorev python kodlari
 
-KLASÖRLER HAKKINDA
+**KLASÖRLER HAKKINDA**
 -> 1.0.1 isimli klasor testlerin bulunduğu klasördür. 
 
     1. Test arm_test1.py
