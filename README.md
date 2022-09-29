@@ -2,7 +2,7 @@
 #### TEKNOFEST 2022 Doner Kanat iha 2. gorev python kodlari
 
 **KLASÖRLER HAKKINDA**
--> 1.0.1 isimli klasor testlerin bulunduğu klasördür. 
+-> 1.0. ile baslayan klasorler testlerin bulundugu klasordür. 
 
     1. Test arm_test1.py
     2. Test takeOff_test2.py
