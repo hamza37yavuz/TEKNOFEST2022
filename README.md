@@ -5,9 +5,14 @@
 #### TEKNOFEST 2022 Doner Kanat iha 2. gorev python kodlari
 
 **KLASÖRLER HAKKINDA**
+
+
 1.0. ile baslayan klasorler testlerin bulundugu klasorlerdir. 
 
+
+
 1.0.1 ile başlayan klasor iha'nın çalışmasını test etme amaçlı yazılmıştır.
+    
     1. Test arm_test1.py
     2. Test takeOff_test2.py
     3. Test goAndLand_test3.py
