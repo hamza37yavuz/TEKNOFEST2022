@@ -10,6 +10,8 @@
 1.0. ile baslayan klasorler testlerin bulundugu klasorlerdir. 
 
 
+1.0.1 isimli klasordeki testlerin hepsi numaralandirma sirasina göre once simulasyon programi sonra iha uzerinde test edilmelidir.
+Alinan hatalara gore kod uzerinde duzeltmeler yapilmasi gerekebilir.
 
 1.0.1 ile başlayan klasor iha'nın çalışmasını test etme amaçlı yazılmıştır.
     
@@ -27,8 +29,7 @@
 
 1.0.3 isimli klasör görevi yapacak şekilde görüntü işlemenin çalıştırılması amacıyla hazırlanmıştır raspberry pi 4'te çalıştırılma amacıyla hazırlanmıştır.
 
+info klasoru icerisinde requirements.txt içerisinde gerekli kütüphane lsitesi verilmiştir. ayrıca gereken kütüphanelerin bazı fonksiyonlarının kullanımı gösterilmiştir. 
 
-1.0.1 isimli klasordeki testlerin hepsi numaralandirma sirasina göre once simulasyon programi sonra iha uzerinde test edilmelidir.
-Alinan hatalara gore kod uzerinde duzeltmeler yapilmasi gerekebilir.
 
 Bu islemlerden sonra 2 . ile baslayan klasorlerin son surumu kullanılarak iha'nin goreve uygun sekilde calismasi saglanabilir.
